@@ -28,75 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnConnect = new System.Windows.Forms.Button();
+            this.btnGoHome = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.btMove = new System.Windows.Forms.Button();
+            this.txtDist = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnReadDI = new System.Windows.Forms.Button();
+            this.btnCreateInitDB = new System.Windows.Forms.Button();
             this.btnShowAddrConfig = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button2
+            // btnConnect
             // 
-            this.button2.Location = new System.Drawing.Point(21, 31);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(56, 18);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "连接PLC";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnConnect.Location = new System.Drawing.Point(6, 5);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(70, 40);
+            this.btnConnect.TabIndex = 1;
+            this.btnConnect.Text = "连接PLC";
+            this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnGoHome
             // 
-            this.button3.Location = new System.Drawing.Point(21, 78);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(56, 18);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "回原点";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnGoHome.Location = new System.Drawing.Point(6, 49);
+            this.btnGoHome.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGoHome.Name = "btnGoHome";
+            this.btnGoHome.Size = new System.Drawing.Size(70, 40);
+            this.btnGoHome.TabIndex = 2;
+            this.btnGoHome.Text = "回原点";
+            this.btnGoHome.UseVisualStyleBackColor = true;
+            this.btnGoHome.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnStop
             // 
-            this.button4.Location = new System.Drawing.Point(21, 122);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(56, 18);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "停止";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnStop.Location = new System.Drawing.Point(6, 93);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(70, 40);
+            this.btnStop.TabIndex = 3;
+            this.btnStop.Text = "停止";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btMove
             // 
-            this.button5.Location = new System.Drawing.Point(21, 166);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(56, 18);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "相对运动";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btMove.Location = new System.Drawing.Point(6, 137);
+            this.btMove.Margin = new System.Windows.Forms.Padding(2);
+            this.btMove.Name = "btMove";
+            this.btMove.Size = new System.Drawing.Size(70, 40);
+            this.btMove.TabIndex = 4;
+            this.btMove.Text = "相对运动";
+            this.btMove.UseVisualStyleBackColor = true;
+            this.btMove.Click += new System.EventHandler(this.button5_Click);
             // 
-            // textBox1
+            // txtDist
             // 
-            this.textBox1.Location = new System.Drawing.Point(194, 165);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 21);
-            this.textBox1.TabIndex = 5;
+            this.txtDist.Location = new System.Drawing.Point(157, 149);
+            this.txtDist.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDist.Name = "txtDist";
+            this.txtDist.Size = new System.Drawing.Size(76, 21);
+            this.txtDist.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(117, 167);
+            this.label1.Location = new System.Drawing.Point(80, 151);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 12);
@@ -106,7 +106,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(274, 167);
+            this.label2.Location = new System.Drawing.Point(237, 151);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(17, 12);
@@ -122,33 +122,34 @@
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
-            // button1
+            // btnReadDI
             // 
-            this.button1.Location = new System.Drawing.Point(21, 216);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 40);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "点位读取间隔测试";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnReadDI.Location = new System.Drawing.Point(6, 181);
+            this.btnReadDI.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReadDI.Name = "btnReadDI";
+            this.btnReadDI.Size = new System.Drawing.Size(70, 40);
+            this.btnReadDI.TabIndex = 9;
+            this.btnReadDI.Text = "点位读取间隔测试";
+            this.btnReadDI.UseVisualStyleBackColor = true;
+            this.btnReadDI.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button6
+            // btnCreateInitDB
             // 
-            this.button6.Location = new System.Drawing.Point(256, 20);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(56, 40);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "创建数据库";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnCreateInitDB.Enabled = false;
+            this.btnCreateInitDB.Location = new System.Drawing.Point(256, 20);
+            this.btnCreateInitDB.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCreateInitDB.Name = "btnCreateInitDB";
+            this.btnCreateInitDB.Size = new System.Drawing.Size(56, 40);
+            this.btnCreateInitDB.TabIndex = 10;
+            this.btnCreateInitDB.Text = "创建数据库";
+            this.btnCreateInitDB.UseVisualStyleBackColor = true;
+            this.btnCreateInitDB.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnShowAddrConfig
             // 
-            this.btnShowAddrConfig.Location = new System.Drawing.Point(148, 256);
+            this.btnShowAddrConfig.Location = new System.Drawing.Point(6, 226);
             this.btnShowAddrConfig.Name = "btnShowAddrConfig";
-            this.btnShowAddrConfig.Size = new System.Drawing.Size(90, 23);
+            this.btnShowAddrConfig.Size = new System.Drawing.Size(70, 40);
             this.btnShowAddrConfig.TabIndex = 11;
             this.btnShowAddrConfig.Text = "显示地址目录 ";
             this.btnShowAddrConfig.UseVisualStyleBackColor = true;
@@ -160,16 +161,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.btnShowAddrConfig);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCreateInitDB);
+            this.Controls.Add(this.btnReadDI);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.txtDist);
+            this.Controls.Add(this.btMove);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.btnGoHome);
+            this.Controls.Add(this.btnConnect);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PLCForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -180,16 +181,16 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnConnect;
+        private System.Windows.Forms.Button btnGoHome;
+        private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Button btMove;
+        private System.Windows.Forms.TextBox txtDist;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnReadDI;
+        private System.Windows.Forms.Button btnCreateInitDB;
         private System.Windows.Forms.Button btnShowAddrConfig;
     }
 }

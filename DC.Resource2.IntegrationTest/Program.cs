@@ -14,7 +14,7 @@ namespace DC.Resource2.IntegrationTest
         [STAThread]
         static void Main()
         {
-            Migrate();
+            //Migrate();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new PLCForm());

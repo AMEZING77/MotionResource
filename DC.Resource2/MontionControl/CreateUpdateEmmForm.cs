@@ -49,10 +49,18 @@ namespace DC.Resource2.MontionControl
             {
                 cmbEmmType.SelectedValue = _target.MechanismType;
                 cmbOem.SelectedValue = _target.Oem;
-                Refill(_bindingProtocol, PlcControllerFactory.SupportedProtocol[_target.Oem]);
-                cmbProtocol.SelectedValue = _target.Protocol;
-                Refill(_bindingSeries, PlcControllerFactory.SupportedSeries[_target.Oem]);
-                cmbSeries.SelectedValue = _target.Series;
+                if (_target.Oem.IsPlcOem())
+                {
+                    Refill(_bindingProtocol, PlcControllerFactory.SupportedProtocol[_target.Oem]);
+                    cmbProtocol.SelectedValue = _target.Protocol;
+                    Refill(_bindingSeries, PlcControllerFactory.SupportedSeries[_target.Oem]);
+                    cmbSeries.SelectedValue = _target.Series;
+                }
+                else
+                {
+                    Refill(_bindingSeries, BoardControllerFactory.SupportedSeries[_target.Oem]);
+                    cmbSeries.SelectedValue = _target.Series;
+                }
                 txbCode.Text = _target.Code;
                 txbIpAddr.Text = _target.IpAddress;
                 nudPort.Value = _target.Port;
@@ -89,7 +97,7 @@ namespace DC.Resource2.MontionControl
                 _bindingProtocol.Clear();
                 _bindingProtocol.Add(new BindingItem<Protocol> { Name = "未指定", Value = Protocol.Unknown });
                 _bindingSeries.Clear();
-                _bindingSeries.Add(new BindingItem<string> { Name = "未指定", Value = "未指定" });
+                Refill(_bindingSeries, BoardControllerFactory.SupportedSeries[oem]);
             }
         }
 

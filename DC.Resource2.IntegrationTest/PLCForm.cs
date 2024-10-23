@@ -64,8 +64,8 @@ namespace DC.Resource2.IntegrationTest
 
         private void button2_Click(object sender, EventArgs e)
         {
-            IEquipmentMotionMechanismRepository equipmentMotionMechanismRepository = new EquipmentMotionMechanismMemoryRepository();
-            IAddressRepository addressCatalog = new MemoryAddressCatalog();
+            IEquipmentMotionMechanismRepository equipmentMotionMechanismRepository = new EquipmentMotionMechanismDbRepository();
+            IAddressRepository addressCatalog = new AddressCatalogDbRepository();
             PlcControllerFactory plcControllerFactory = new PlcControllerFactory();
             ILogger logger = InitalLog();
 
@@ -101,7 +101,7 @@ namespace DC.Resource2.IntegrationTest
         private void button5_Click(object sender, EventArgs e)
         {
             int axisId = 1;
-            int.TryParse(textBox1.Text, out var distance);
+            int.TryParse(txtDist.Text, out var distance);
             int nPulsePos = distance * 100;
             int acc = 100;
             int dec = 100;
@@ -122,6 +122,7 @@ namespace DC.Resource2.IntegrationTest
 
         private void button6_Click(object sender, EventArgs e)
         {
+            return;
             ILogger logger = InitalLog();
             ResouceDbMigration resouceDb = new ResouceDbMigration(logger, "Data Source=../settings/resource.db");
             resouceDb.Migrate();
@@ -148,7 +149,6 @@ namespace DC.Resource2.IntegrationTest
 
         private void btnShowAddrConfig_Click(object sender, EventArgs e)
         {
-
             var form = new MotionConfigForm();
             form.ShowDialog();
         }
