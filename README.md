@@ -6,6 +6,9 @@
 
 DC.Resource2是一个通用的运动控制抽象模块，基于HslCommunication库开发，提供了统一的运动控制器接口，支持多种运动控制器（如DMC2210、DMC2410、固高、PLC等）的抽象和统一管理。
 
+<img width="2236" height="860" alt="运控库" src="https://github.com/user-attachments/assets/75ccd6f0-4109-422b-bcf8-e0b7f39946f0" />
+<img width="2146" height="1156" alt="运控库代码" src="https://github.com/user-attachments/assets/a32eda5b-e633-4489-8f10-5a9137297786" />
+
 ## 🎯 主要功能
 
 - **统一运动控制接口**: 提供`IMotionController`接口，统一不同品牌运动控制器的操作
