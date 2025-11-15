@@ -43,10 +43,10 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(6, 5);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConnect.Location = new System.Drawing.Point(12, 10);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(70, 40);
+            this.btnConnect.Size = new System.Drawing.Size(140, 80);
             this.btnConnect.TabIndex = 1;
             this.btnConnect.Text = "连接PLC";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -54,10 +54,10 @@
             // 
             // btnGoHome
             // 
-            this.btnGoHome.Location = new System.Drawing.Point(6, 49);
-            this.btnGoHome.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGoHome.Location = new System.Drawing.Point(12, 98);
+            this.btnGoHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGoHome.Name = "btnGoHome";
-            this.btnGoHome.Size = new System.Drawing.Size(70, 40);
+            this.btnGoHome.Size = new System.Drawing.Size(140, 80);
             this.btnGoHome.TabIndex = 2;
             this.btnGoHome.Text = "回原点";
             this.btnGoHome.UseVisualStyleBackColor = true;
@@ -65,10 +65,10 @@
             // 
             // btnStop
             // 
-            this.btnStop.Location = new System.Drawing.Point(6, 93);
-            this.btnStop.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStop.Location = new System.Drawing.Point(12, 186);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(70, 40);
+            this.btnStop.Size = new System.Drawing.Size(140, 80);
             this.btnStop.TabIndex = 3;
             this.btnStop.Text = "停止";
             this.btnStop.UseVisualStyleBackColor = true;
@@ -76,10 +76,10 @@
             // 
             // btMove
             // 
-            this.btMove.Location = new System.Drawing.Point(6, 137);
-            this.btMove.Margin = new System.Windows.Forms.Padding(2);
+            this.btMove.Location = new System.Drawing.Point(12, 274);
+            this.btMove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btMove.Name = "btMove";
-            this.btMove.Size = new System.Drawing.Size(70, 40);
+            this.btMove.Size = new System.Drawing.Size(140, 80);
             this.btMove.TabIndex = 4;
             this.btMove.Text = "相对运动";
             this.btMove.UseVisualStyleBackColor = true;
@@ -87,47 +87,47 @@
             // 
             // txtDist
             // 
-            this.txtDist.Location = new System.Drawing.Point(157, 149);
-            this.txtDist.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDist.Location = new System.Drawing.Point(314, 298);
+            this.txtDist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDist.Name = "txtDist";
-            this.txtDist.Size = new System.Drawing.Size(76, 21);
+            this.txtDist.Size = new System.Drawing.Size(148, 35);
             this.txtDist.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 151);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(160, 302);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.Size = new System.Drawing.Size(154, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "相对运动距离";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(237, 151);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(474, 302);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 12);
+            this.label2.Size = new System.Drawing.Size(34, 24);
             this.label2.TabIndex = 7;
             this.label2.Text = "MM";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(339, 10);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.richTextBox1.Location = new System.Drawing.Point(678, 20);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(253, 342);
+            this.richTextBox1.Size = new System.Drawing.Size(502, 680);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
             // btnReadDI
             // 
-            this.btnReadDI.Location = new System.Drawing.Point(6, 181);
-            this.btnReadDI.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReadDI.Location = new System.Drawing.Point(12, 362);
+            this.btnReadDI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReadDI.Name = "btnReadDI";
-            this.btnReadDI.Size = new System.Drawing.Size(70, 40);
+            this.btnReadDI.Size = new System.Drawing.Size(140, 80);
             this.btnReadDI.TabIndex = 9;
             this.btnReadDI.Text = "点位读取间隔测试";
             this.btnReadDI.UseVisualStyleBackColor = true;
@@ -135,11 +135,10 @@
             // 
             // btnCreateInitDB
             // 
-            this.btnCreateInitDB.Enabled = false;
-            this.btnCreateInitDB.Location = new System.Drawing.Point(256, 20);
-            this.btnCreateInitDB.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCreateInitDB.Location = new System.Drawing.Point(512, 40);
+            this.btnCreateInitDB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCreateInitDB.Name = "btnCreateInitDB";
-            this.btnCreateInitDB.Size = new System.Drawing.Size(56, 40);
+            this.btnCreateInitDB.Size = new System.Drawing.Size(112, 80);
             this.btnCreateInitDB.TabIndex = 10;
             this.btnCreateInitDB.Text = "创建数据库";
             this.btnCreateInitDB.UseVisualStyleBackColor = true;
@@ -147,9 +146,10 @@
             // 
             // btnShowAddrConfig
             // 
-            this.btnShowAddrConfig.Location = new System.Drawing.Point(6, 226);
+            this.btnShowAddrConfig.Location = new System.Drawing.Point(12, 452);
+            this.btnShowAddrConfig.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnShowAddrConfig.Name = "btnShowAddrConfig";
-            this.btnShowAddrConfig.Size = new System.Drawing.Size(70, 40);
+            this.btnShowAddrConfig.Size = new System.Drawing.Size(140, 80);
             this.btnShowAddrConfig.TabIndex = 11;
             this.btnShowAddrConfig.Text = "显示地址目录 ";
             this.btnShowAddrConfig.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             // 
             // PLCForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 360);
+            this.ClientSize = new System.Drawing.Size(1200, 720);
             this.Controls.Add(this.btnShowAddrConfig);
             this.Controls.Add(this.btnCreateInitDB);
             this.Controls.Add(this.btnReadDI);
@@ -171,7 +171,7 @@
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnGoHome);
             this.Controls.Add(this.btnConnect);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PLCForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

@@ -9,11 +9,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DC.Resource2</RootNamespace>
     <AssemblyName>DC.Resource2</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DC.Common2, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DC.Common2.1.3.1\lib\net462\DC.Common2.dll</HintPath>
+    <Reference Include="DC.Common2">
+      <HintPath>..\..\..\300-OfflinePackages\DC.Common2.1.4.1\lib\net462\DC.Common2.dll</HintPath>
     </Reference>
     <Reference Include="HslCommunication, Version=12.0.2.0, Culture=neutral, PublicKeyToken=3d72ad3b6b5ec0e3, processorArchitecture=MSIL">
       <HintPath>..\packages\HslCommunication.12.0.2\lib\net451\HslCommunication.dll</HintPath>

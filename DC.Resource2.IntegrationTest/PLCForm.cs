@@ -122,7 +122,7 @@ namespace DC.Resource2.IntegrationTest
 
         private void button6_Click(object sender, EventArgs e)
         {
-            return;
+            //return;
             ILogger logger = InitalLog();
             ResouceDbMigration resouceDb = new ResouceDbMigration(logger, "Data Source=../settings/resource.db");
             resouceDb.Migrate();

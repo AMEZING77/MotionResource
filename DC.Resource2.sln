@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Resource2", "DC.Resource
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Resource2.UnitTest", "DC.Resource2.UnitTest\DC.Resource2.UnitTest.csproj", "{5BEAF2E3-CE38-420B-A20C-9FA4BC33A599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Resource2.IntegrationTest", "DC.Resource2.IntegrationTest\DC.Resource2.IntegrationTest.csproj", "{5468BCD1-DDC0-4400-8D39-D5BDDCFB6BF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "DC.Resource2.IntegrationTest\IntegrationTest.csproj", "{5468BCD1-DDC0-4400-8D39-D5BDDCFB6BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
